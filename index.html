@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ananya Karmakar — AI/ML Portfolio</title>
+  <style>
+    :root{
+      --bg:#0b0c10;--card:#12131a;--muted:#9aa4b2;--text:#e8eef5;--acc:#7c5cff;--chip:#1b1f2a;--border:#232635;--shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font:500 16px/1.6 system-ui;color:var(--text);background:linear-gradient(180deg,#0b0c10,#111827);} 
+    header{position:sticky;top:0;backdrop-filter:saturate(180%) blur(10px);background:rgba(11,12,16,.7);border-bottom:1px solid var(--border);z-index:50}
+    .nav{max-width:1100px;margin:auto;display:flex;align-items:center;gap:16px;padding:10px 20px}
+    .brand{font-weight:800;letter-spacing:.5px}
+    .brand span{color:var(--acc)}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:12px}
+    nav a:hover{background:var(--chip);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 20px}
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;padding:32px 0}
+    .hero h1{font-size:40px;line-height:1.15;margin:0 0 8px}
+    .hero p{color:var(--muted);margin:0 0 16px}
+    .chip{background:var(--chip);border:1px solid var(--border);padding:8px 12px;border-radius:999px;color:var(--muted)}
+    .hero-img{width:180px;height:180px;border-radius:50%;border:3px solid var(--acc);object-fit:cover;box-shadow:var(--shadow)}
+    .hero-content{display:flex;flex-direction:column;gap:16px}
+    @media (max-width:768px){.hero{grid-template-columns:1fr;justify-items:center;text-align:center}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">Ananya <span>Karmakar</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-content">
+      <h1>AI/ML Engineer in the Making 👩‍💻</h1>
+      <p class="muted">B.Tech (ECE) @ MAKAUT • AI-ML Intern (Paid) at Capsitech IT Services Pvt. Ltd • Building ML, DL, and NLP solutions.</p>
+      <div class="chip">Janai, India</div>
+      <div class="chip">Email: ananya.karmakar.fiem.ece22@teamfuture.in</div>
+      <div class="chip">LinkedIn: <a style="color:#cbd5e1" href="https://www.linkedin.com/in/ananya-karmakar-7917a82b9/" target="_blank">/ananya-karmakar</a></div>
+    </div>
+    <div>
+      <img src="profile.jpg" alt="Ananya Karmakar" class="hero-img" />
+    </div>
+  </section>
+</main>
+
+<footer>© 2025 Ananya Karmakar — Built with HTML & CSS</footer>
+</body>
+</html>
